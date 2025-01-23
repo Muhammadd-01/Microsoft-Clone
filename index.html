@@ -47,6 +47,9 @@
             margin-right: 20px;
             font-size: 14px;
         }
+        nav a {
+            text-decoration: none;
+        }
 
         .navbar-right {
             display: flex;
@@ -324,7 +327,11 @@
 <body>
     <header>
         <div class="navbar">
-            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo"></a>
+            <div class="navbar-left">
+                <!-- Microsoft logo with name -->
+                <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Logo" style="height: 30px;"></a>
+                <h1 style="font-size: 18px; margin-left: 10px; color: #0078d4; display: inline-block;">Microsoft</h1>
+            </div>
             <nav>
                 <a href="#">Microsoft 365</a>
                 <a href="#">Office</a>
@@ -336,6 +343,7 @@
                 <a href="#"><img class="icon" src="https://cdn-icons-png.flaticon.com/512/747/747376.png" alt="Sign in"></a>
             </nav>
         </div>
+        
     </header>
     <section class="slider" id="slider">
         <img id="slider-image" src="https://via.placeholder.com/1200x300?text=Slide+1" alt="Slider Image">
@@ -351,7 +359,7 @@
         </div>
     </section>
 
-    <section class="content">
+    <section style="margin-left: 80px;" class="content">
         <h2>Explore Microsoft Products</h2>
         <div class="card-container">
             <div class="card">
@@ -381,13 +389,13 @@
         </div>
     </section>
 
-    <section class="section">
+    <section style="margin-left: 125px;" class="section" >
         <h2>Organize Your Life</h2>
-        <p>Keep your ideas and notes organized with OneNote.</p>
-        <img src="Highlight-PC-SMB-OneNote_VP5-1596x600.webp" alt="OneNote Image">
+        <p >Keep your ideas and notes organized with OneNote.</p>
+        <img " src="Highlight-PC-SMB-OneNote_VP5-1596x600.webp" alt="OneNote Image">
     </section>
 
-    <section class="content">
+    <section style="margin-left: 80px;" class="content">
         <h2>For Business</h2>
         <div class="card-container">
             <div class="card">
